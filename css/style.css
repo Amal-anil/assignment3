@@ -1,0 +1,37 @@
+/* author:AMAL A M */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.welcome,
+.second {
+    height: 100vh;
+}
+.welcomefirst,
+.welcomesecond,
+.web,
+.web1,
+.footer {
+    height: 50vh;
+}
+.welcomefirst,
+.web {
+    background-color: #444444;
+    color: #ffffff;
+}
+.color {
+    background-color: #ffffff;
+}
+
+.font {
+    color: black;
+}
+
+@media screen and (max-width: 576px) {
+    .web {
+        height: fit-content;
+        gap: 10px;
+    }
+}
